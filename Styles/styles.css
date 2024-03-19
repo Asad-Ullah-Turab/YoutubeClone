@@ -1,0 +1,24 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 40px;
+}
+.thumbnail-div{
+    margin-bottom: 7px;
+}
+.thumbnail{
+    width: 100%; 
+    border-radius: 13px;
+}
+
+.video-bottom-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 20px;
+}
+
+.dp{
+    width: 100%;
+    border-radius: 25px;
+}

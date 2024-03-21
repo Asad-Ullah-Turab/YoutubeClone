@@ -1,3 +1,6 @@
+body{
+    font-family: Robots, Arial;
+}
 .navbar-div{
     display: flex;
     height: 45px;
@@ -83,6 +86,7 @@
 .mychannel{
     width: 35px;
     margin-top: 2px;
+    border-radius: 50px;
 }
 
 .video-grid{
@@ -108,4 +112,15 @@
 .dp{
     width: 100%;
     border-radius: 25px;
+}
+
+.video-title{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.video-author,
+.video-views{
+    font-size: 13px;
+    color: rgb(87, 86, 86);
 }

@@ -3,7 +3,9 @@
     <head>
         <title>Practice</title>
     </head>
-    <body>
+    <body
+        style="margin-bottom: 1000px;"
+    >
         <div style="
         display: grid;
         grid-template-columns: 1fr 2fr 3fr;
@@ -20,15 +22,31 @@
         <div style="
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
             ">
             <div style="background-color: azure; 
             flex: 1;
+            max-width: 100px;
             margin-right: 10px;">1</div>
             <div style="background-color: bisque;
             flex: 2;
+            max-width: 300px;
             margin-right: 10px;">2</div>
             <div style="background-color: azure;
-            flex: 3;">3</div>
+            flex: 3;
+            max-width: 400px;
+            ">3</div>
+        </div>
+        <div style="
+            background-color: blue;
+            position: fixed;    
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 40px;
+        ">
+        navbar
         </div>
     </body>
 </html>

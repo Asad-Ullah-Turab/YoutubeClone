@@ -1,16 +1,20 @@
 .navbar-div {
     display: flex;
-    height: 55px;
+    height: 60px;
     justify-content: space-between;
     margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: fixed;
     top: 0;
-    width: 100%;
-    background-color: rgb(21, 36, 36);
+    left: 0;
+    right: 0;
+    background-color: white;
     border-width: 0px;
     border-bottom-width: 1px;
     border-style: solid;
-    border-color: darkslategrey;
+    border-color: rgb(192, 192, 192);
+    z-index: 100;
 }
 
 .left-navbar {
@@ -53,6 +57,10 @@
     font-size: 18px;
 }
 
+.search:focus {
+    outline: none;
+}
+
 .search-btn {
     width: 33px;
     height: 33px;
@@ -82,7 +90,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 35px;
 }
 
 .upload,
@@ -90,6 +97,24 @@
 .notification {
     width: 25px;
     border-radius: 100px;
+}
+
+.notification-div {
+    position: relative;
+}
+
+.notification-count {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    font-size: 10px;
+    padding: 0px 3px 0px 3px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 
 .mychannel {

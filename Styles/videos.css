@@ -1,13 +1,26 @@
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
     row-gap: 40px;
-    margin-top: 70px;
+    margin-top: 80px;
+    margin-left: 85px;
 }
 
 .thumbnail-div {
     margin-bottom: 7px;
+    position: relative;
+}
+
+.duration {
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 5px;
 }
 
 .thumbnail {

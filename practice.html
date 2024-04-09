@@ -1,52 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Practice</title>
-    </head>
-    <body
-        style="margin-bottom: 1000px;"
-    >
-        <div style="
+
+<head>
+    <title>Practice</title>
+</head>
+
+<body style="margin-bottom: 1000px; padding-top: 40px; padding-left: 40px">
+    <div style="
+        background-color: blue;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 40px;
+        z-index: 100;
+      ">
+        navbar
+    </div>
+    <div style="
+        position: fixed;
+        top: 40px;
+        left: 0px;
+        background-color: cyan;
+        bottom: 0px;
+        display: flex;
+        flex-direction: column;
+      ">
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+        <p style="flex: 1">Home</p>
+    </div>
+    <div style="
         display: grid;
         grid-template-columns: 1fr 2fr 3fr;
         column-gap: 10px;
+        row-gap: 10px;
         margin-bottom: 30px;
-            ">
-            <div style="background-color: azure;">1</div>
-            <div style="background-color: bisque;">2</div>
-            <div style="background-color: azure;">3</div>
-            <div style="background-color: bisque;">2</div>
-            <div style="background-color: azure;">3</div>
-            <div style="background-color: bisque;">2</div>
+      ">
+        <div style="background-color: azure;
+                    position: relative;">
+            1
+            <div style="position: absolute;
+                        right: 0px;
+                        bottom: 0px;
+                        background-color: aqua;">x</div>
         </div>
-        <div style="
+        <div style="background-color: bisque">2</div>
+        <div style="background-color: azure">3</div>
+        <div style="background-color: bisque">2</div>
+        <div style="background-color: azure">3</div>
+        <div style="background-color: bisque">2</div>
+    </div>
+    <div style="
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 10px;
-            ">
-            <div style="background-color: azure; 
-            flex: 1;
-            max-width: 100px;
-            margin-right: 10px;">1</div>
-            <div style="background-color: bisque;
-            flex: 2;
-            max-width: 300px;
-            margin-right: 10px;">2</div>
-            <div style="background-color: azure;
-            flex: 3;
-            max-width: 400px;
-            ">3</div>
+      ">
+        <div style="
+          background-color: purple;
+          flex: 1;
+          max-width: 100px;
+          margin-right: 10px;
+        ">
+            1
         </div>
         <div style="
-            background-color: blue;
-            position: fixed;    
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            height: 40px;
+          background-color: pink;
+          flex: 2;
+          max-width: 300px;
+          margin-right: 10px;
         ">
-        navbar
+            2
         </div>
-    </body>
+        <div style="background-color: orange; flex: 3; max-width: 400px">3</div>
+    </div>
+</body>
+
 </html>

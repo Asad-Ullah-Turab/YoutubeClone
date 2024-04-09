@@ -9,6 +9,10 @@
     padding-top: 8px;
 }
 
+.sidebar-div a {
+    text-decoration: none;
+}
+
 .sidebar-link {
     margin-bottom: 1px;
     height: 75px;

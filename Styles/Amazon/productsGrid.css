@@ -1,0 +1,15 @@
+.products-grid {
+    display: flex;
+    justify-content: center;
+    top: 250px;
+    background-color: blue;
+}
+
+.product-tab {
+    background-color: white;
+    height: 420px;
+    width: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex: 1;
+}

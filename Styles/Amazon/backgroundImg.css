@@ -1,0 +1,20 @@
+.content {
+    margin: auto;
+    max-width: 1500px;
+    min-width: 1000px;
+    position: relative;
+}
+
+.background-img-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.background-img-div {
+    flex: 1;
+    height: 600px;
+}
+
+.background-img {
+    height: 100%;
+}

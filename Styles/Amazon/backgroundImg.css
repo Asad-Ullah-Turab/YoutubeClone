@@ -3,6 +3,7 @@
     max-width: 1500px;
     min-width: 1000px;
     position: relative;
+    background-color: cornflowerblue;
 }
 
 .background-img-flexbox {
@@ -12,9 +13,9 @@
 
 .background-img-div {
     flex: 1;
-    height: 600px;
 }
 
 .background-img {
-    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

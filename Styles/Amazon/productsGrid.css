@@ -7,10 +7,13 @@
     left: 0px;
 }
 
-.products-grid-flexbox {
-    display: flex;
-    justify-content: center;
+.products-grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 20px;
+    column-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .product-tab-1,
@@ -18,9 +21,7 @@
 .product-tab-3 {
     background-color: white;
     height: 420px;
-    margin-right: 10px;
-    margin-left: 10px;
-    flex: 1;
+    padding: 0px 15px 0px 15px;
 }
 
 .product-row {
